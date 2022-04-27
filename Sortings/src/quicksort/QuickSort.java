@@ -10,6 +10,8 @@ public class QuickSort {
 		printArray(a, n);
 		quick(a, 0, n -1);
 		
+		System.out.println();
+		
 		System.out.println("After sorting array elements are ");
 		printArray(a, n);
 		
