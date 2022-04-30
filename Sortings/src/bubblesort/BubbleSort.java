@@ -1,5 +1,8 @@
 package bubblesort;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class BubbleSort {
 
 	public static void main(String[] args) {
@@ -23,6 +26,8 @@ public class BubbleSort {
 		var temp = 0;
 		for(var i = 0; i < array.length; i ++) {
 			for(var j = 1; j < (array.length-i); j++) {
+				
+				int num1,  num2 ;
 				
 				if(array[j-1] > array[j]) {
 					
